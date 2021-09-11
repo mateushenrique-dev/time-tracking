@@ -1,0 +1,95 @@
+.profile {
+  background: hsl(235, 46%, 20%);
+  border-radius: 12px;
+
+  color: #fff;
+}
+
+.profile__card {
+  background: hsl(264, 64%, 52%);
+  border-radius: 12px;
+  padding: 2rem;
+
+  height: 65%;
+}
+
+.profile__dates {
+  padding: 2rem;
+}
+
+.profile__card-image img {
+  width: 4rem;
+  margin-bottom: 2rem;
+  border: 2px solid #fff;
+  border-radius: 50%;
+}
+
+.profile__card-infos-report {
+  color: hsl(236, 100%, 87%);
+}
+
+.profile__card-infos-name {
+  font-weight: 300;
+  font-size: 2.5rem;
+
+  margin-top: 0.5rem;
+
+  max-width: 50%;
+}
+
+.profile__dates__list {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile__dates__list li {
+  margin-bottom: 1rem;
+  font-size: 1.125rem;
+
+  color: hsl(236, 100%, 87%);
+  transition: color 0.2s;
+}
+
+.profile__dates__list li:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+.profile__dates__list li.active {
+  color: #fff;
+}
+
+@media (max-width: 375px) {
+  .profile__card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .profile__card-image img {
+    margin: 0 1rem 0 0;
+    width: 3.5rem;
+  }
+
+  .profile__card-infos-name {
+    font-size: 1.125rem;
+    max-width: 100%;
+  }
+
+  .profile__card-infos-report {
+    font-size: 0.875rem;
+  }
+
+  .profile__dates__list {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .profile__dates__list li {
+    margin-bottom: 0;
+  }
+
+  .profile__dates__list li:not(:last-child) {
+    margin-right: 1rem;
+  }
+}

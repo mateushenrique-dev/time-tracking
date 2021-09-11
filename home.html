@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/card-category.css">
+    <link rel="stylesheet" href="styles/profile.css">
+    <link rel="stylesheet" href="styles/cards.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Time tracking dashboard</title>
+  </head>
+  <body>
+    <main class="time-tracking">
+      <section class="profile">
+        <div class="profile__card">
+          <picture class="profile__card-image">
+            <img src="images/image-jeremy.png" alt="Profile Logo" />
+          </picture>
+
+          <div class="profile__card-infos">
+            <span class="profile__card-infos-report">Report for</span>
+            <h1 class="profile__card-infos-name">Jeremy Robson</h1>
+          </div>
+        </div>
+
+        <div class="profile__dates">
+          <ul class="profile__dates__list">
+            <li>Daily</li>
+            <li>Weekly</li>
+            <li>Monthly</li>
+          </ul>
+        </div>
+      </section>
+      <section class="cards"></section>
+    </main>
+
+    <script type="module" src="javascript/app.js"></script>
+  </body>
+</html>

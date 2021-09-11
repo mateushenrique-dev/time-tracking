@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Rubik", sans-serif;
+}
+body {
+  background: hsl(226, 43%, 10%);
+  width: 100vw;
+  height: 100vh;
+
+  display: grid;
+
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.time-tracking {
+  display: grid;
+
+  grid-template-columns: 1fr 3fr;
+  gap: 2rem;
+
+  max-width: 1140px;
+}
+
+@media screen and (max-width: 375px) {
+  .time-tracking {
+    grid-template-columns: 1fr;
+
+    padding: 1rem;
+  }
+}

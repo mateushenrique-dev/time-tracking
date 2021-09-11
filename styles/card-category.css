@@ -1,0 +1,50 @@
+.card__work {
+  background: hsl(43, 84%, 65%);
+  background-image: url('../images/icon-work.svg') no-repeat;
+  background-position: 10px;
+}
+
+.card__work::before {
+  background: url('../images/icon-work.svg') no-repeat center/cover;
+}
+
+
+.card__play {
+  background: hsl(195, 74%, 62%);
+}
+
+.card__play::before {
+  background: url('../images/icon-play.svg') no-repeat center/cover;
+}
+
+.card__study {
+  background: hsl(348, 100%, 68%);
+}
+
+.card__study::before {
+  background: url('../images/icon-study.svg') no-repeat center/cover;
+}
+
+.card__exercise {
+  background: hsl(145, 58%, 55%);
+}
+
+.card__exercise::before {
+  background: url('../images/icon-exercise.svg') no-repeat center/cover;
+}
+
+.card__social {
+  background: hsl(264, 64%, 52%);
+}
+
+.card__social::before {
+  background: url('../images/icon-social.svg') no-repeat center/cover;
+}
+
+.card__selfcare {
+  background: hsl(43, 84%, 65%);
+}
+
+.card__selfcare::before {
+  background: url('../images/icon-self-care.svg') no-repeat center/cover;
+}
